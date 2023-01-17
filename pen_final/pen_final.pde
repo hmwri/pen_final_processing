@@ -10,7 +10,7 @@ String AlarmTime = "9999";
 //設定時刻がアラームされたかどうか
 boolean alarmed = false;
 //webAPIのURL
-String url = "https://hmwri.com:8081/setting";
+String url = "https://hmwri.com/pen_final/setting.xml";
 
 void setup() {
   printArray(Serial.list());
