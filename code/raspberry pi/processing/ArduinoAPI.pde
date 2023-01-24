@@ -1,6 +1,7 @@
 // ArduinoAPI
 // Arduinoとのシリアル通信を行うAPI
 // 詳しい通信の取り決めは下記リンクにまとめてあります
+// https://docs.google.com/document/d/1HWwt3uiOemUGvEklAf__XyYCu3OO2D889Ji2ZTbyfzU/edit?usp=sharing
 abstract class ArduinoAPI {
   Serial arduino;
   // シリアルクラスを指定する
