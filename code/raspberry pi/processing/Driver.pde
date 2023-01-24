@@ -1,7 +1,7 @@
 class Driver {
   //ここにセンサーデータが入っている(単位cm　整数)
   //右 data.right 左 data.left 前 data.front 上 data.top
-  int n =50;
+  int n =  50;
   ArduinoData data;
   Driver(ArduinoData _data) {
     data = _data;

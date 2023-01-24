@@ -14,8 +14,8 @@ String url = "https://hmwri.com/pen_final/setting.xml";
 
 void setup() {
   printArray(Serial.list());
-  Serial s_arduino1 = new Serial(this, "COM6", 9600);
-  Serial s_arduino2 = new Serial(this, "COM4", 9600);
+  Serial s_arduino1 = new Serial(this, "/dev/ttyACM0",  19200);
+  Serial s_arduino2 = new Serial(this, "/dev/ttyACM1", 19200);
   //モーター及びスピーカーを司るArduinoの操作をするAPIクラス
   ArduinoAPI1 arduino1 = new ArduinoAPI1(s_arduino1);
   //LEDテープ及び距離センサを司るArduinoの操作をするAPIクラス
